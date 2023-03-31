@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Digital Resume</title>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    
+  </head>
+  <body>
+    <a-scene>
+      <!-- Camera setup -->
+      <a-entity camera position="0 1.6 0">
+        <a-cursor raycaster="objects: .clickable;"></a-cursor>
+      </a-entity>
+      
+      <!-- Text panel setup -->
+      <a-plane position="0 2.5 -2" width="4" height="2.5" color="#FFF" opacity="0.8"></a-plane>
+      <a-text value="Brand Digital Designer" color="#000" position="-1.5 2.2 -1.9" align="center" width="3" wrap-count="25" font="https://cdn.aframe.io/fonts/Roboto-msdf.json"></a-text>
+      <a-text value="10 years experience" color="#000" position="-1.5 1.9 -1.9" align="center" width="3" wrap-count="25" font="https://cdn.aframe.io/fonts/Roboto-msdf.json"></a-text>
+      <a-text value="Design Storytelling, Branding, Digital Design, Web Design, Art Direction, Concept Creation, UI/UX, Packaging, Interaction Design, Animation, Typography, Clothing, Graphic Design, Editorial, Photography and Printing" color="#000" position="-1.5 1.2 -1.9" align="center" width="3" wrap-count="25" font="https://cdn.aframe.io/fonts/Roboto-msdf.json"></a-text>
+      
+      <!-- Background setup -->
+      <a-sky color="#ECECEC"></a-sky>
+    </a-scene>
+  </body>
+</html>
